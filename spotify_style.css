@@ -1,0 +1,43 @@
+
+html {
+background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGzxvLLIWgs1DZMs55zWlRDO6Qs1ZLCu6N0RSYPyI018iJCkQ-kA") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+#artist-image {
+    display:block;
+    margin: auto;
+}
+
+#artist-name {
+    text-align:center;
+    font-size:20px;
+    color: #FFFFFF;
+}
+
+#title {
+    text-align:center;
+    font-size: 70px;
+    color:#FFFFFF;
+    font-family:verdana;
+}
+#form-div {
+   text-align:center;
+}
+#followers {
+    text-align:center;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+#top-tracks-list {
+    width: 260px;
+    display:block;
+    margin: auto;
+}

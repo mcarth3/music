@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music artists</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" type="text/css" href="spotify_style.css">
+    </head>
+    <body>
+       
+       
+       <h1 id="title">Search for a music artist</h1>
+       <br>
+       <a id="google-link" target="_blank"><img id="artist-image"></a>
+       
+       
+       <p id="artist-name"></p>
+       <p id="followers"></p>
+       
+       <form>
+           <div id="form-div">
+               <input type="text" id="artist" size="25" placeholder="Artist Name">
+               <input id="search-button" type="submit" value="Search">
+           </div>
+       </form>
+       
+       <br>
+       <div id="top-tracks-list"></div>
+       
+        <script src="spotify.js"></script>
+        
+    </body>
+</html>
